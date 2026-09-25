@@ -11,6 +11,7 @@ def home():
     <nav>
         <a href="/about">About Us</a> | 
         <a href="/contact">Contact Us</a>
+        
     </nav>
     """
 
@@ -19,7 +20,7 @@ def home():
 def about():
     return """
     <h1>About Page</h1>
-    <p>This is the about page for our application.</p>
+    <p>This is the about page for our application. </p>
     <a href="/">Back to Home</a>
     """
 
